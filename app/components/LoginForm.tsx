@@ -40,7 +40,7 @@ export default function LoginForm() {
                 className="text-4xl bg-gradient-to-r from-[#1A3594] to-[#6B58B3] font-extrabold font-poppins inline-block text-transparent bg-clip-text">
                     Sign In To Your Account
                 </h2>
-                <p className="font-poppins text-[#1A3594]">Let's sign in to your account and get started!</p>
+                <p className="font-poppins text-[#1A3594]">Let&apos;s sign in to your account and get started!</p>
 
                 <form onSubmit={handleSubmit} className="mt-6">
                     <p className="font-semibold font-poppins bg-gradient-to-r from-[#1A3594] to-[#6B58B3] inline-block text-transparent bg-clip-text">Email Address</p>
