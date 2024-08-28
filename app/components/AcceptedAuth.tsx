@@ -21,7 +21,7 @@ export default function UserInfo() {
         <button 
             onClick={handleGetStarted}
             className="w-52 rounded-full bg-gradient-to-r from-[#CAAACF] to-[#6B58B3] text-white font-poppins font-extrabold m-8 py-3 px-4 shadow-lg">
-                Let's Get Started
+                Let&apos;s Get Started
         </button>
       </div>
     );
