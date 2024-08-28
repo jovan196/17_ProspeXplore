@@ -4,7 +4,7 @@ import User from "../../../models/user";
 import bcrypt from 'bcryptjs';
 import { connectMongoDB } from "@/lib/mongodb";
 
-const options = {
+const handler = NextAuth({
     providers: [
         CredentialsProvider({
             name: "credentials",
@@ -40,6 +40,6 @@ const options = {
     pages: {
         signIn: "/",
     },
-};
+});
 
-export default NextAuth(options);
+export default handler;
