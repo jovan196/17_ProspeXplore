@@ -79,7 +79,7 @@ export default function LoginForm() {
                 )}
 
                 <p className="my-4 text-center text-[#1A3594] font-poppins">
-                    Don't have an account? <Link href="/authentication" className="font-extrabold bg-gradient-to-r from-[#1A3594] to-[#6B58B3] inline-block text-transparent bg-clip-text">Sign Up</Link>
+                    Don&apos;t have an account? <Link href="/authentication" className="font-extrabold bg-gradient-to-r from-[#1A3594] to-[#6B58B3] inline-block text-transparent bg-clip-text">Sign Up</Link>
                 </p>
 
             
