@@ -210,7 +210,7 @@ export default function Home() {
             <div className="tes-minat-fakta-desc-judul">
               <p>What Model do We Use?</p>
             </div>
-            <p>Our assessment utilizes a sophisticated multi-dimensional analysis model that combines the Big Five personality traits, and modern learning style frameworks. This integrated approach ensures a holistic evaluation of your interests, aptitudes, and preferences. By correlating your responses with extensive data on academic programs and career outcomes, our model provides highly accurate and personalized faculty recommendations, guiding you towards educational paths where you're most likely to thrive and succeed. </p>
+            <p>Our assessment utilizes a sophisticated multi-dimensional analysis model that combines the Big Five personality traits, and modern learning style frameworks. This integrated approach ensures a holistic evaluation of your interests, aptitudes, and preferences. By correlating your responses with extensive data on academic programs and career outcomes, our model provides highly accurate and personalized faculty recommendations, guiding you towards educational paths where you&apos;re most likely to thrive and succeed. </p>
             <div className="tes-minat-fakta-desc-desc"></div>
           </div>
           <div className="tes-minat-fakta-data">
@@ -227,7 +227,7 @@ export default function Home() {
         
         <div className="kontak-komplain">
           <div className="kontak-komplain-judul">
-            <p>Let's Stay In Touch!</p>
+            <p>Let&apos;s Stay In Touch!</p>
           </div>
           <div className="komplain-container">
             <div className="email">
