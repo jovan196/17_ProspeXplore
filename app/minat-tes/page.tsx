@@ -6,6 +6,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { useSession } from 'next-auth/react';
 import { signOut } from 'next-auth/react';
+import React, { useEffect } from "react";
 
 export default function Home() {
   const [pelajaranFavorit, setPelajaranFavorit] = useState("");
@@ -29,6 +30,20 @@ export default function Home() {
   const toggleDropdown = () => {
     setDropdownOpen(!dropdownOpen);
   };
+
+  useEffect(() => {
+    document.title = "ProspeXplore";
+
+    const favicon = document.querySelector("link[rel='icon']") as HTMLLinkElement;
+    if (favicon) {
+      favicon.href = "logo-half1.png";
+    } else {
+      const newFavicon = document.createElement("link");
+      newFavicon.rel = "icon";
+      newFavicon.href = "logo-half1.png";
+      document.head.appendChild(newFavicon);
+    }
+  }, []);
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();

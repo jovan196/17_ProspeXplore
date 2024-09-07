@@ -7,6 +7,7 @@ import { useRouter } from 'next/navigation';
 import { useState } from 'react';
 import { useSession } from 'next-auth/react';
 import { signOut } from 'next-auth/react';
+import React, { useEffect } from "react";
 
 export default function Home() {
   const { data: session } = useSession();
@@ -22,6 +23,21 @@ export default function Home() {
   const toggleDropdown = () => {
     setDropdownOpen(!dropdownOpen);
   };
+
+  useEffect(() => {
+    document.title = "ProspeXplore";
+
+    const favicon = document.querySelector("link[rel='icon']") as HTMLLinkElement;
+    if (favicon) {
+      favicon.href = "logo-half1.png";
+    } else {
+      const newFavicon = document.createElement("link");
+      newFavicon.rel = "icon";
+      newFavicon.href = "logo-half1.png";
+      document.head.appendChild(newFavicon);
+    }
+  }, []);
+
   return (
     <div id="page-fakultas" className="page-fakultas">
       <main>

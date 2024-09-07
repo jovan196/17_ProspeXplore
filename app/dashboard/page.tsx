@@ -1,12 +1,12 @@
 "use client";
 
-import React from "react";
 import UserInfo from "../components/UserInfo";
 import Link from "next/link";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { useSession } from "next-auth/react";
 import { signOut } from "next-auth/react";
+import React, { useEffect } from "react";
 
 export default function Dashboard() {
   const { data: session } = useSession();
@@ -22,6 +22,19 @@ export default function Dashboard() {
   const toggleDropdown = () => {
     setDropdownOpen(!dropdownOpen);
   };
+  useEffect(() => {
+    document.title = "ProspeXplore";
+
+    const favicon = document.querySelector("link[rel='icon']") as HTMLLinkElement;
+    if (favicon) {
+      favicon.href = "logo-half1.png";
+    } else {
+      const newFavicon = document.createElement("link");
+      newFavicon.rel = "icon";
+      newFavicon.href = "logo-half1.png";
+      document.head.appendChild(newFavicon);
+    }
+  }, []);
   return(
     <main className="bg-gradient-to-b from-[#1A3594] to-[#6B58B3] min-h-screen">
       <div className="header-container">

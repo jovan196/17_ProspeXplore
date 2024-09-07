@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import { Navigation } from 'swiper/modules';
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa'; 
 import { useSession } from "next-auth/react";
@@ -49,7 +49,19 @@ export default function Home() {
     setDropdownOpen(!dropdownOpen);
   };
 
+  useEffect(() => {
+    document.title = "ProspeXplore";
 
+    const favicon = document.querySelector("link[rel='icon']") as HTMLLinkElement;
+    if (favicon) {
+      favicon.href = "logo-half1.png";
+    } else {
+      const newFavicon = document.createElement("link");
+      newFavicon.rel = "icon";
+      newFavicon.href = "logo-half1.png";
+      document.head.appendChild(newFavicon);
+    }
+  }, []);
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -274,6 +286,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </main>
+    </main>      
   );
 }

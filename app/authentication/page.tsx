@@ -1,15 +1,24 @@
 import Link from "next/link";
 import RegisterForm from "../components/RegisterForm";
-import React from "react";
+import React, {useEffect} from "react";
 import { getServerSession } from "next-auth";
 import { GET, POST } from '../api/auth/[...nextauth]/route';
 import {redirect} from "next/navigation";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'ProspeXplore',
+  description:
+    'A Webpage that contains information about Peter Wongsoredjo',
+  icons: {
+    icon: '/logo-half1.png', // Ensure this path matches your favicon file in the public directory
+  },
+};
 
 export default async function Home() {
   const handler = {};
   const session = await getServerSession({ ...handler, session: { strategy: 'jwt' } });
   console.log("Session:", session);
-  
   if (session) {
     redirect("/dashboard")
   }
