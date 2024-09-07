@@ -102,7 +102,7 @@ export default function Home() {
       <div className="landing-page-top">
         <div className="header-container">
           <div className="header">
-            <Image className="logo" src="/logo.png" alt="ProspeXplore" width={190} height={53} />
+            <Image className="logo" src="/Logo.png" alt="ProspeXplore" width={190} height={53} />
             <div className="navbar">
               <Link href="/">Home Page</Link>
               <Link href="#fakultas">Faculties</Link>
