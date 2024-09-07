@@ -1,7 +1,7 @@
 // lib/mongodb.ts
 import { MongoClient } from "mongodb";
 
-const uri = "mongodb+srv://contact-form:iRsEz35NfAzn8p!@prospexplore.6wyph.mongodb.net/?retryWrites=true&w=majority&appName=ProspeXplore"; // Replace with your MongoDB connection string
+const uri = process.env.MONGODB_URI || "mongodb+srv://contact-form:iRsEz35NfAzn8p!@prospexplore.6wyph.mongodb.net/?retryWrites=true&w=majority&appName=ProspeXplore"; // Replace with your MongoDB connection string
 const options = {};
 
 let client;
