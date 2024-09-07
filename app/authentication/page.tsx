@@ -2,10 +2,11 @@ import Link from "next/link";
 import RegisterForm from "../components/RegisterForm";
 import React from "react";
 import { getServerSession } from "next-auth";
-import handler from "../api/auth/[...nextauth]/route";
+import { GET, POST } from '../api/auth/[...nextauth]/route';
 import {redirect} from "next/navigation";
 
 export default async function Home() {
+  const handler = {};
   const session = await getServerSession({ ...handler, session: { strategy: 'jwt' } });
   console.log("Session:", session);
   

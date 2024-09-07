@@ -4,7 +4,7 @@ import User from "../../models/user";
 import bcrypt from 'bcryptjs';
 
 export async function POST(req) {
-    try{
+    try {
         const { email, password } = await req.json();
         const existingUser = await User.findOne({ email });
         if (existingUser) {
@@ -18,6 +18,6 @@ export async function POST(req) {
         return NextResponse.json({ message: 'User created' }, { status: 201 });
     } catch (error) {
         console.error(error);
-        return NextResponse.error({ message: 'Server error' }, { status: 500 });
+        return NextResponse.json({ message: 'Server error' }, { status: 500 });
     }
 }

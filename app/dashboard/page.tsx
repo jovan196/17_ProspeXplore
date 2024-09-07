@@ -43,7 +43,7 @@ export default function Dashboard() {
                   <div className="dropdown-menu">
                     <Link href="/authentication">Sign In</Link>
                     <Link href="/settings">Settings</Link>
-                    <button onClick={() => signOut({ callbackUrl: "/" })}>Log Out</button>
+                    <button onClick={handleSignOut}>Log Out</button>
                   </div>
                 )};
                   </div>
