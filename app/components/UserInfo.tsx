@@ -57,11 +57,6 @@ export default function UserInfo() {
               )}
           </div>
         </form>
-
-        <div className="flex fixed bottom-0">
-          <img src="Vector.png" alt="logo" className="h-8 my-6 ml-6 mr-2" />
-          <img src="Frame 13.png" alt="name" className="h-8 mt-6" />
-        </div>
       </div>
     );
 }
