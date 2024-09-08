@@ -199,7 +199,7 @@ export default function Home() {
           modules={[Navigation]}
         >
           {slideData.map((data, index) => (
-            <SwiperSlide key={index} className='text-black'
+            <SwiperSlide key={index} className='text-black' style={{ cursor: 'pointer' }}
             onClick={() => handleRedirect(data.title)}>
               {slide(data.title, data.description)}
             </SwiperSlide>
