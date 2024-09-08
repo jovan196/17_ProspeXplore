@@ -6,6 +6,7 @@ import { useRouter } from "next/navigation";
 import Image from "next/image";
 import { useState } from "react";
 
+
 export default function UserInfo() {
   const { data: session } = useSession();
   const router = useRouter();
@@ -19,6 +20,8 @@ export default function UserInfo() {
   const toggleDropdown = () => {
     setDropdownOpen(!dropdownOpen);
   };
+
+  const [showPassword, setShowPassword] = useState(false);
 
 
   return (
@@ -39,7 +42,19 @@ export default function UserInfo() {
 
           <p className="font-bold font-poppins text-white mb-2">Password</p>
           <div className="mb-4 text-white">
-            <span className="block w-full px-3 py-3 border-2 rounded-full">*****</span>
+              {showPassword ? (
+                <span className="block w-full px-3 py-3 border-2 rounded-full">
+                  {}
+                  Password cannot be displayed for security reasons.
+                </span>
+              ) : (
+                <button
+                  className="block w-full px-3 py-3 border-2 rounded-full"
+                  onClick={() => setShowPassword(true)}
+                >
+                  Show Password
+                </button>
+              )}
           </div>
         </form>
 

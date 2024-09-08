@@ -3,8 +3,12 @@
 import Link from "next/link";
 import LoginForm from "../components/LoginForm";
 import React, { useEffect } from "react";
+import { useSession } from "next-auth/react";
+import { useRouter } from "next/navigation";
 
 export default function Home() {
+  const { data: session, status } = useSession(); 
+  const router = useRouter();
   useEffect(() => {
     document.title = "ProspeXplore";
 
@@ -17,7 +21,10 @@ export default function Home() {
       newFavicon.href = "logo-half1.png";
       document.head.appendChild(newFavicon);
     }
-  }, []);
+    if (session) {
+      router.push("/dashboard");
+    }
+  }, [session, router]);
   return (
     <main className="bg-white min-h-screen flex flex-1">
       <div className="w-1/2 bg-gradient-to-b from-[#1A3594] to-[#6B58B3] flex justify-between">

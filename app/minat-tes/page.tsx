@@ -65,8 +65,7 @@ export default function Home() {
 
     const result = await response.json();
     if (response.ok) {
-      setFakultas(result.fakultas); // Assuming result.fakultas is a single value, adjust if it's an array
-      // Optional redirect based on result or other logic
+      setFakultas(result.fakultas);
       if (result.fakultas === "Sekolah Teknik Elektro Informatika (STEI)") {
         router.push("/fakultas/stei");
       }
@@ -91,9 +90,14 @@ export default function Home() {
                       </span>
                       {dropdownOpen && (
                         <div className="dropdown-menu">
-                          <Link href="/authentication">Sign In</Link>
-                          <Link href="/settings">Settings</Link>
-                          <button onClick={() => signOut({ callbackUrl: "/" })}>Log Out</button>
+                          <div className="dropdown-menu-links">
+                            <Image src="/signin.png" alt="User" width={15} height={15} />
+                            <Link href="/authentication">Sign In</Link>
+                          </div>
+                          <div className="dropdown-menu-links">
+                            <Image src="/logout.png" alt="Logout" width={15} height={15} />
+                            <button onClick={handleSignOut}>Log Out</button>
+                          </div>
                         </div>
                       )};
                   </div>

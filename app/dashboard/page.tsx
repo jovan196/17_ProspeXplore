@@ -7,14 +7,12 @@ import { useRouter } from "next/navigation";
 import { useSession } from "next-auth/react";
 import { signOut } from "next-auth/react";
 import React, { useEffect } from "react";
+import Image from "next/image";
 
 export default function Dashboard() {
   const { data: session } = useSession();
-  const handleSignOut = async () => {
-    await signOut();
-    router.push("/");
-  };
   const router = useRouter();
+  
   const handleNavClick = (id: string) => {
       router.push(`/#${id}`);
   };
@@ -34,7 +32,17 @@ export default function Dashboard() {
       newFavicon.href = "logo-half1.png";
       document.head.appendChild(newFavicon);
     }
+     if (!session) {
+      router.push("/authentication");
+    }
   }, []);
+
+  const handleSignOut = async () => {
+    await signOut({ redirect: false });
+    router.push("/");
+    return null;
+  };
+
   return(
     <main className="bg-gradient-to-b from-[#1A3594] to-[#6B58B3] min-h-screen">
       <div className="header-container">
@@ -54,9 +62,14 @@ export default function Dashboard() {
                 </span>
                 {dropdownOpen && (
                   <div className="dropdown-menu">
-                    <Link href="/authentication">Sign In</Link>
-                    <Link href="/settings">Settings</Link>
-                    <button onClick={handleSignOut}>Log Out</button>
+                    <div className="dropdown-menu-links">
+                      <Image src="/signin.png" alt="User" width={15} height={15} />
+                      <Link href="/authentication">Sign In</Link>
+                    </div>
+                    <div className="dropdown-menu-links">
+                      <Image src="/logout.png" alt="Logout" width={15} height={15} />
+                      <button onClick={handleSignOut}>Log Out</button>
+                    </div>
                   </div>
                 )};
                   </div>

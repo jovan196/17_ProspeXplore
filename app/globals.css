@@ -550,7 +550,7 @@ textarea::placeholder{
 }
 
 .dropdown-button img {
-  margin-left: 8px; /* Add some space between the text and arrow */
+  margin-left: 10px; /* Add some space between the text and arrow */
 }
 
 .dropdown-button:hover {
@@ -575,8 +575,23 @@ textarea::placeholder{
 
 
 /* Style for dropdown links */
+.dropdown-menu-links{
+  display: flex;
+  padding-left: 20px;
+  align-items: center;
+}
+
+.dropdown-menu-links img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15px;
+  height: 15px;
+}
+
 .dropdown-menu a, .dropdown-menu button{
-  padding: 10px;
+  margin-left: 10px;
+  padding: 10px 0px;
   text-decoration: none;
   color: white;
   display: flex;
@@ -586,7 +601,7 @@ textarea::placeholder{
 .dropdown-menu button{
   display: inline-flex;
   position: relative;
-  margin-left: 40px;
+  margin-left: 10px;
   font-size: 18px;
   font-weight: 500;
   color: white !important; /* Set text color to white */
@@ -594,13 +609,13 @@ textarea::placeholder{
   cursor: pointer; /* Change cursor to a hand */
 }
 
-.dropdown-menu a:hover, .dropdown-menu button:hover {
+.dropdown-menu-links:hover{
   background-color: rgba(255, 255, 255, 0.1); /* Slightly white background on hover */
   border-radius: 8px; /* Rounded corners on hover */
   text-decoration: none !important;
 }
 
 /* Remove border from the last link (not necessary since borders are removed) */
-.dropdown-menu a:last-child, .dropdown-menu button:last-child {
+.dropdown-menu-links:last-child {
   border-bottom: none;
 }
