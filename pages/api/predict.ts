@@ -19,7 +19,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
         const { pelajaranFavorit, minatUtama, keterampilanUnggulan, lingkunganKerja, tipeKepribadian, gayaBelajar } = req.body;
 
         const results: CsvRow[] = []; // Explicitly define the type of results
-        const csvFilePath = path.resolve(process.cwd(), 'public', 'mock-data.csv');
+        const csvFilePath = path.resolve(process.cwd(), 'public', 'data-minat.csv');
 
         // Read the CSV file
         fs.createReadStream(csvFilePath)
