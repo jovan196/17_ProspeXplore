@@ -193,11 +193,12 @@ export default function Home() {
                             Submit
                         </button>
                     </form>
-
+                    {fakultas && (
                       <div className="mt-6">
                         <h3 className="text-black font-bold">Recommended Fakultas:</h3>
                         <p className="text-black text-center font-bold font-poppins text-2xl">{fakultas}</p>
                       </div>
+                    )}
                 </div>
             </div>
             <div className="flex fixed bottom-0">

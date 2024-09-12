@@ -25,7 +25,6 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
         fs.createReadStream(csvFilePath)
             .pipe(csv())
             .on('data', (data: CsvRow) => {
-                console.log('CSV Data:', data); // Log each row
                 results.push(data);
             })
             .on('end', () => {
