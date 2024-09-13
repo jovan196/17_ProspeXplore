@@ -163,14 +163,14 @@ export default function Home() {
         <div className="tagline-container">
           <div className="tagline-text">
             <div>
-              <p className="welcome-text ">Welcome to,</p>
+              <p className="welcome-text ">Selamat datang di,</p>
             </div>
             <div>
               <p className="app-name">ProspeXplore</p>
             </div>
             <div>
               <p className="app-description">
-                Welcome to Prospexplore, your gateway to meaningful career insights through our comprehensive tracer study platform. Discover the paths of our graduates and explore endless possibilities for your own professional journey!</p>
+                Selamat datang di Prospexplore, Gerbang Anda menuju wawasan karier yang bermakna melalui platform tracer study kami yang komprehensif. Temukan jalur karier para lulusan ITB dan jelajahi peluang tak terbatas untuk perjalanan profesional Anda sendiri!</p>
             </div>
             <div>
               <button className="explore-button"onClick={() => {
@@ -188,14 +188,18 @@ export default function Home() {
       </div>
 
       <div id="fakultas" className="fakultas">
-      <h1 className='font-bold text-poppins text-7xl pb-10 flex items-center justify-center text-[#1A3594]' style={{ textShadow: "3px 3px 5px rgba(0, 0, 0, 0.25)" }}>Faculties</h1>
+      <h1 className='font-bold text-poppins text-7xl pb-10 flex items-center justify-center text-[#1A3594]' style={{ textShadow: "3px 3px 5px rgba(0, 0, 0, 0.25)" }}>Fakultas</h1>
         <div className="flex flex-wrap max-w-screen-lg mx-auto">
           <div className="w-full px-4 md:w-1/2 flex flex-col items-center">
             <p className="text-sm text-[#1A3594] mb-10 xl:text-md text-left w-full">
-            Bandung Institute of Technology (ITB) is proud to present 12 outstanding faculties, each renowned for academic excellence and career-focused education.
-            These faculties offer a diverse range of programs designed to equip students with the skills and knowledge needed to excel in today’s dynamic job market.
-            From engineering to the arts, ITB’s faculties prepare students for rewarding careers, fostering creativity, innovation, and leadership.
-            Discover your future at ITB, where education meets opportunity, and career prospects are limitless.
+              Institut Teknologi Bandung (ITB) menawarkan 12 fakultas unggulan, masing-masing dikenal 
+              karena keunggulan akademik dan pendidikan yang berfokus pada karier. Fakultas-fakultas ini 
+              menawarkan berbagai program yang dirancang untuk membekali mahasiswa dengan keterampilan dan 
+              pengetahuan yang diperlukan agar mampu sukses di pasar kerja yang dinamis saat ini. 
+              Mulai dari teknik hingga seni, fakultas-fakultas ITB mempersiapkan mahasiswa untuk menuju 
+              tidak hanya kehidupan karier yang menjanjikan, tetapi juga mendorong kreativitas, inovasi, 
+              dan kepemimpinan. Temukan masa depan Anda di ITB, tempat di mana pendidikan bertemu dengan 
+              kesempatan, dan prospek karier tak terbatas.
             </p>
           </div>
           <div className="w-full px-4 mb-4 md:w-1/2 flex items-center justify-center">
@@ -238,14 +242,14 @@ export default function Home() {
           <p className="text-violet-500">Minat</p>
         </div>
         <div className="tes-minat-desc">
-          <p>Discover your true academic passion with our comprehensive interest assessment. This tailored test evaluates your preferences across key areas including favorite subjects, primary interests, standout skills, ideal work environments, personality type, and learning style. By analyzing these crucial factors, we provide personalized recommendations to help you identify the most suitable faculty and academic programs that align with your unique profile and aspirations. </p>
+          <p>Temukan minat akademik Anda dengan asesmen minat kami. Tes ini mengevaluasi preferensi Anda di berbagai bidang utama, minat utama, keterampilan unggulan, lingkungan kerja yang ideal, dan lainnya. Dengan menganalisis faktor-faktor penting ini, kami memberikan rekomendasi yang dipersonalisasi untuk membantu Anda menentukan fakultas dan program studi yang paling sesuai dengan kepribadian dan aspirasi unik Anda.</p>
         </div>
         <div className="tes-minat-fakta">
           <div className="tes-minat-fakta-desc">
             <div className="tes-minat-fakta-desc-judul">
-              <p>What Model do We Use?</p>
+              <p>Apa Model yang Kami Gunakan?</p>
             </div>
-            <p>Our assessment utilizes a sophisticated multi-dimensional analysis model that combines the Big Five personality traits, and modern learning style frameworks. This integrated approach ensures a holistic evaluation of your interests, aptitudes, and preferences. By correlating your responses with extensive data on academic programs and career outcomes, our model provides highly accurate and personalized faculty recommendations, guiding you towards educational paths where you&apos;re most likely to thrive and succeed. </p>
+            <p>Asesmen kami menggunakan model analisis multi-dimensi yang menggabungkan teori kepribadian Big Five dan kerangka gaya belajar modern. Pendekatan terpadu ini memastikan evaluasi holistik atas minat, bakat, dan preferensi Anda. Dengan menghubungkan respons Anda dengan data luas tentang program akademik dan hasil karier, model kami memberikan rekomendasi fakultas yang akurat dan dipersonalisasi, membimbing Anda menuju jalur pendidikan yang paling mungkin bagi Anda untuk berkembang dan meraih kesuksesan.</p>
             <div className="tes-minat-fakta-desc-desc"></div>
           </div>
           <div className="tes-minat-fakta-data">
