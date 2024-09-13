@@ -41,12 +41,18 @@ p{
   font-family: 'Poppins', sans-serif;
 }
 
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opcaity: 1; }
+}
+
 .landing-page-top {
   background: 
     linear-gradient(112.46deg, rgba(26, 53, 148, 0.8) 20.57%, rgba(107, 88, 179, 0.8) 99.71%),
     url('/backgroundstrings.png') no-repeat center center;
   background-size: cover;
   height: 982px;
+  animation: fadeIn 2s;
 }
 
 .header-container {
@@ -148,6 +154,20 @@ p{
   font-weight: 700;
   color: white;
   height: 139px;
+  overflow: hidden;
+  border-right: .10em solid white;
+  letter-spacing: .05em;
+  animation: typing 3.5s steps(40, end), blink-caret .8s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white; }
 }
 
 .app-description{

@@ -92,20 +92,20 @@ export default function Home() {
           </div> 
 
           <div className="fakultas-graph"> 
-            <Image src="/STEI_GajiLamaKerja.png" alt="Grafik gaji berdasarkan lama kerja" width={1000} height={1000} />
+            <Image src="/SITH_GajiLamaKerja.png" alt="Grafik gaji berdasarkan lama kerja" width={1000} height={1000} />
           </div>
 
 
           <div className="fakultas-graph"> 
-            <Image src="/STEI_GajiTepatSetelahLulus.png" alt="Gaji tepat setelah lulus" width={1000} height={1000} />
+            <Image src="/SITH_GajiTepatSetelahLulus.png" alt="Gaji tepat setelah lulus" width={1000} height={1000} />
           </div>
 
           <div className="fakultas-graph"> 
-            <Image src="/STEI_JenisKerja.png" alt="Labtek" width={1000} height={1000}/>
+            <Image src="/SITH_JenisKerja.png" alt="Labtek" width={1000} height={1000}/>
           </div>
 
           <div className="fakultas-graph"> 
-            <Image src="/STEI_GajiTahun.png" alt="Labtek" width={1000} height={1000}/>
+            <Image src="/SITH_GajiTahun.png" alt="Labtek" width={1000} height={1000}/>
           </div>
 
           <div className="footer">

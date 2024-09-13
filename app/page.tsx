@@ -42,6 +42,9 @@ export default function Home() {
       if (title === "Sekolah Teknik Elektro Informatika (STEI)"){
         router.push("/fakultas/stei");
       }
+      else if (title === "Sekolah Ilmu Teknologi Hayati (SITH)"){
+        router.push("/fakultas/sith");
+      }
     };
 
   const [dropdownOpen, setDropdownOpen] = useState(false);
