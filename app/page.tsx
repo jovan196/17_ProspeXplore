@@ -45,6 +45,21 @@ export default function Home() {
       else if (title === "Sekolah Ilmu Teknologi Hayati (SITH)"){
         router.push("/fakultas/sith");
       }
+      else if (title === "Fakultas Teknik Mesin dan Dirgantara (FTMD)"){
+        router.push("/fakultas/ftmd");
+      }
+      else if (title === "Fakultas Ilmu dan Teknologi Kebumian (FITB)"){
+        router.push("/fakultas/fitb");
+      }
+      else if (title === "Fakultas Matematika dan Ilmu Pengetahuan Alam (FMIPA)"){
+        router.push("/fakultas/fmipa");
+      }
+      else if (title === "Fakultas Teknik Pertambangan dan Perminyakan (FTTM)"){
+        router.push("/fakultas/fttm");
+      }
+      else if (title === "Fakultas Seni Rupa dan Desain (FSRD)"){
+        router.push("/fakultas/fsrd");
+      }
     };
 
   const [dropdownOpen, setDropdownOpen] = useState(false);

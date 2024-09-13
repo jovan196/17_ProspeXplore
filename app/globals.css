@@ -225,6 +225,8 @@ p{
   font-size: 45px;
   font-weight: 700;
   padding-top: 100px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
 }
 
 .fakultas-short-desc {
@@ -235,6 +237,8 @@ p{
   justify-content: center; /* Center text horizontally */
   align-items: center; 
   align-content: center;
+  color: white;
+  font-family: 'Poppins', sans-serif;
 }
 
 .fakultas-get-to-know {
@@ -243,6 +247,8 @@ p{
   color: white;
   padding-bottom: 10px;
   padding: 0px 176px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
 }
 
 .fakultas-article {
@@ -251,6 +257,8 @@ p{
   align-items: center; /* Center items vertically */
   padding: 30px 176px; /* Padding for spacing */
   gap: 20px; /* Add space between items if needed */
+  color: white;
+  font-family: 'Poppins', sans-serif;
 }
 
 .fakultas-foto {
