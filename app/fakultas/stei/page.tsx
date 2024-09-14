@@ -73,10 +73,7 @@ export default function Home() {
           </div>
         
           <div className="fakultas-short-desc">
-          STEI ITB is at the forefront of technological education in Indonesia. Our programs in electrical engineering and informatics blend cutting-edge theory with practical applications. 
-          We prepare students to become innovators and leaders in the rapidly evolving fields of technology and computer science. 
-          With world-class faculty and state-of-the-art facilities, STEI ITB offers an unparalleled educational experience for aspiring engineers and technologists. 
-          </div>
+          Sekolah Teknik Elektro dan Informatika (STEI) resmi didirikan pada tahun 2006 yang menggabungkan dua departemen Fakultas Teknologi Industri, yakni Departemen Teknik Elektro (EL) dan Departemen Teknik Informatika (IF). Seiring berjalannya waktu dan perkembangan kurikulum, ditambahkan 4 jurusan baru, yakni Teknik Biomedis (EB), Teknik Tenaga Listrik (EP), Teknik Telekomunikasi (ET), dan Sistem dan Teknologi Informasi (II). Program studi Teknik Informatika dan Sistem dan Teknologi Informasi disatukan dalam rumpun studi Komputasi, sedangkan sisanya menjadi bagian dari rumpun studi Rekayasa.          </div>
 
           <div className="fakultas-get-to-know">
           Get to know about STEI!
@@ -87,7 +84,7 @@ export default function Home() {
                 <Image src="/Labtek.png" alt="Labtek" width={600} height={400}></Image>
               </div>
               <div className="fakultas-long-desc">
-                At STEI ITB, we offer a comprehensive learning environment that goes beyond traditional classroom education. Our students engage in hands-on projects, collaborative research, and industry partnerships that provide real-world experience. We emphasize innovation, critical thinking, and problem-solving skills to prepare our graduates for the challenges of the digital age. With a strong focus on both theoretical knowledge and practical skills, STEI ITB graduates are well-equipped to drive technological advancements and shape the future of Indonesia&apos;s tech industry. Join us to be part of a community dedicated to excellence in electrical engineering and informatics.
+                STEI ITB menawarkan lingkungan belajar yang komprehensif yang melampaui pendidikan tradisional di dalam kelas. Mahasiswa terlibat dalam proyek langsung, penelitian kolaboratif, dan kemitraan industri yang memberikan pengalaman dunia nyata. Inovasi, pemikiran kritis, dan keterampilan pemecahan masalah ditekankan untuk mempersiapkan lulusan menghadapi tantangan di era digital. Dengan fokus yang kuat pada pengetahuan teoritis dan keterampilan praktis, lulusan STEI ITB dilengkapi dengan baik untuk mendorong kemajuan teknologi dan membentuk masa depan industri teknologi Indonesia.               
               </div>
           </div> 
 

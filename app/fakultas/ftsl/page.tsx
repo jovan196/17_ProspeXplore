@@ -89,22 +89,6 @@ export default function Home() {
               </div>
           </div> 
 
-          <div className="fakultas-graph"> 
-            <Image src="/FTMD_GajiLamaKerja.png" alt="Grafik gaji berdasarkan lama kerja" width={1000} height={1000} />
-          </div>
-
-
-          <div className="fakultas-graph"> 
-            <Image src="/FTMD_GajiTepatSetelahLulus.png" alt="Gaji tepat setelah lulus" width={1000} height={1000} />
-          </div>
-
-          <div className="fakultas-graph"> 
-            <Image src="/FTMD_JenisKerja.png" alt="Labtek" width={1000} height={1000}/>
-          </div>
-
-          <div className="fakultas-graph"> 
-            <Image src="/FTMD_GajiTahun.png" alt="Labtek" width={1000} height={1000}/>
-          </div>
 
           <div className="footer">
             <div className="footer-logo">
