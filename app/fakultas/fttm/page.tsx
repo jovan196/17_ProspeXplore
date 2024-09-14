@@ -73,9 +73,7 @@ export default function Home() {
           </div>
         
           <div className="fakultas-short-desc">
-          STEI ITB is at the forefront of technological education in Indonesia. Our programs in electrical engineering and informatics blend cutting-edge theory with practical applications. 
-          We prepare students to become innovators and leaders in the rapidly evolving fields of technology and computer science. 
-          With world-class faculty and state-of-the-art facilities, STEI ITB offers an unparalleled educational experience for aspiring engineers and technologists. 
+          Fakultas Teknik Pertambangan dan Perminyakan (FTTM) ITB adalah salah satu dari 12 fakultas di Institut Teknologi Bandung. Sejarah FTTM dimulai pada tahun 1959 dengan pendirian Fakultas Teknologi Mineral (FTM), Berasal dari Departemen Pertambangan yang didirikan pada tahun 1949 dan Departemen Geologi pada tahun 1950. Perkembangan lebih lanjut terjadi pada tahun 1962 dengan berdirinya Departemen Teknik Perminyakan untuk memenuhi kebutuhan spesialisasi di bidang perminyakan. Selanjutnya, Departemen Teknik Geofisika juga menjadi bagian dari fakultas ini setelah sebelumnya menjadi program studi di bawah Departemen Teknik Geologi. Pada tahun 2007, setelah penggabungan dengan Departemen Geofisika dan Meteorologi dari FMIPA, fakultas ini dipecah menjadi dua Unit Keilmuan Serumpun : FTTM dan Fakultas Ilmu dan Teknologi Kebumian (FITB). Sejak 12 Februari 2007, FTTM resmi berdiri sendiri, mengelola empat program studi sarjana, empat program magister, dan tiga program doktoral. Untuk program Sarjana, FTTM menaungi Teknik Pertambangan (TA), Teknik Perminyakan (TM), Teknik Geofisika (TG), dan Teknik Metalurgi (MG).
           </div>
 
           <div className="fakultas-get-to-know">
@@ -87,7 +85,7 @@ export default function Home() {
                 <Image src="/FTTM_Gedung.png" alt="Labtek" width={600} height={400}></Image>
               </div>
               <div className="fakultas-long-desc">
-                At STEI ITB, we offer a comprehensive learning environment that goes beyond traditional classroom education. Our students engage in hands-on projects, collaborative research, and industry partnerships that provide real-world experience. We emphasize innovation, critical thinking, and problem-solving skills to prepare our graduates for the challenges of the digital age. With a strong focus on both theoretical knowledge and practical skills, STEI ITB graduates are well-equipped to drive technological advancements and shape the future of Indonesia&apos;s tech industry. Join us to be part of a community dedicated to excellence in electrical engineering and informatics.
+              Mahasiswa yang ingin bersaing di FTTM harus memiliki dasar yang kuat dalam ilmu eksakta seperti Matematika, Fisika, dan Kimia. Dalam program studi Teknik Pertambangan, Teknik Perminyakan, Teknik Geofisika, dan Teknik Metalurgi, mahasiswa akan mempelajari mata kuliah inti seperti Geomekanika, Eksplorasi dan Produksi Minyak dan Gas, Geofisika Eksplorasi, Teknik Pengeboran, Proses Metalurgi, dan Manajemen Proyek. Mata kuliah ini didukung oleh pembelajaran praktik lapangan, penggunaan teknologi eksplorasi dan produksi, serta simulasi komputer untuk memahami proses industri.
               </div>
           </div> 
 

@@ -73,9 +73,7 @@ export default function Home() {
           </div>
         
           <div className="fakultas-short-desc">
-          STEI ITB is at the forefront of technological education in Indonesia. Our programs in electrical engineering and informatics blend cutting-edge theory with practical applications. 
-          We prepare students to become innovators and leaders in the rapidly evolving fields of technology and computer science. 
-          With world-class faculty and state-of-the-art facilities, STEI ITB offers an unparalleled educational experience for aspiring engineers and technologists. 
+            Fakultas Teknik Mesin dan Dirgantara (FTMD) ITB didirikan pada 10 September 2007 sebagai hasil pemekaran dari Fakultas Teknologi Industri (FTI). Program studi di FTMD memiliki sejarah panjang sejak pembentukan Program Studi Teknik Mesin (MS) pada 1 Agustus 1941 di Technische Hoogeschool (TH) Bandoeng. Seiring waktu, program ini berkembang dan mencakup Teknik Penerbangan / Dirgantara (AE) yang akhirnya menjadi program studi secara terpisah pada tahun 1991, serta Teknik Material (MT) yang mulai diperkenalkan pada tahun 1994. 
           </div>
 
           <div className="fakultas-get-to-know">
@@ -87,7 +85,7 @@ export default function Home() {
                 <Image src="/FTMD_Gedung.png" alt="Labtek" width={600} height={400}></Image>
               </div>
               <div className="fakultas-long-desc">
-                At STEI ITB, we offer a comprehensive learning environment that goes beyond traditional classroom education. Our students engage in hands-on projects, collaborative research, and industry partnerships that provide real-world experience. We emphasize innovation, critical thinking, and problem-solving skills to prepare our graduates for the challenges of the digital age. With a strong focus on both theoretical knowledge and practical skills, STEI ITB graduates are well-equipped to drive technological advancements and shape the future of Indonesia&apos;s tech industry. Join us to be part of a community dedicated to excellence in electrical engineering and informatics.
+                FTMD saat ini menawarkan program pendidikan sarjana, magister, dan doktor dalam bidang Teknik Mesin, Teknik Dirgantara, dan Teknik Material. Mahasiswa di FTMD perlu memiliki dasar yang kuat dalam Matematika, Fisika, dan Kimia. Mata kuliah yang akan dipelajari seperti Mekanika Teknik, Termodinamika, Dinamika Penerbangan, dan Material Komposit. Keterampilan yang diperlukan meliputi kemampuan analisis dan pemecahan masalah teknis, keterampilan praktis dalam penggunaan perangkat dan teknologi terkini, serta kemampuan dalam desain dan simulasi dengan menggunakan perangkat lunak CAD (Computer-Aided Design) dan CAE (Computer-Aided Engineering). Mahasiswa juga perlu mengembangkan keterampilan komunikasi yang baik.
               </div>
           </div> 
 

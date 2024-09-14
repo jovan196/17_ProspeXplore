@@ -69,13 +69,11 @@ export default function Home() {
             </div>
           </div>
           <div className="fakultas-nama">
-            Sekolah Teknik Elektro dan Informatika (STEI)
+            Fakultas Seni Rupa dan Desain (FSRD)
           </div>
         
           <div className="fakultas-short-desc">
-          STEI ITB is at the forefront of technological education in Indonesia. Our programs in electrical engineering and informatics blend cutting-edge theory with practical applications. 
-          We prepare students to become innovators and leaders in the rapidly evolving fields of technology and computer science. 
-          With world-class faculty and state-of-the-art facilities, STEI ITB offers an unparalleled educational experience for aspiring engineers and technologists. 
+          Fakultas Seni Rupa dan Desain (FSRD) ITB didirikan pada tahun 1984 setelah mengalami perkembangan panjang dari sebagai Balai Pendidikan Universiter Guru Gambar di bawah naungan Fakultas Ilmu Pengetahuan Teknik Universitas Indonesia pada tahun 1947. Awalnya, FSRD mencakup tiga jurusan, yakni Seni Rupa Murni, Desain, dan Sosioteknologi. Setelah mengalami berbagai perubahan dan perkembangan, FSRD kini menawarkan 5 program studi Sarjana, yakni Desain Interior (DI), Desain Komunikasi dan Visual (DKV), Desain Produk (DP), Kria (KR), dan Seni Rupa (SR).
           </div>
 
           <div className="fakultas-get-to-know">
@@ -87,7 +85,7 @@ export default function Home() {
                 <Image src="/FSRD_Gedung.png" alt="Labtek" width={600} height={400}></Image>
               </div>
               <div className="fakultas-long-desc">
-                At STEI ITB, we offer a comprehensive learning environment that goes beyond traditional classroom education. Our students engage in hands-on projects, collaborative research, and industry partnerships that provide real-world experience. We emphasize innovation, critical thinking, and problem-solving skills to prepare our graduates for the challenges of the digital age. With a strong focus on both theoretical knowledge and practical skills, STEI ITB graduates are well-equipped to drive technological advancements and shape the future of Indonesia&apos;s tech industry. Join us to be part of a community dedicated to excellence in electrical engineering and informatics.
+              Mahasiswa yang ingin menekuni di FSRD harus memiliki dasar yang kuat dalam keterampilan artistik dan pemahaman estetika. Kemampuan menggambar, pemahaman warna, komposisi, dan prinsip desain merupakan pondasi penting untuk semua program studi di FSRD. Mata kuliah yang akan dipelajari meliputi teori dan praktik, diantaranya Desain Grafis, Ilustrasi, Fotografi, dan Teknik Visual. Untuk program studi DKV akan mempelajari Prinsip Desain Interior, Material, dan Konstruksi, program studi DI & DP mempelajari  Pengembangan Produk dan Ergonomi, program studi Kria mahasiswa akan mendalami keterampilan tangan dan penggunaan material tradisional serta modern, sementara program studi Seni Rupa berfokus pada ekspresi artistik melalui berbagai medium seperti lukisan, patung, dan instalasi.
               </div>
           </div> 
 

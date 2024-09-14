@@ -73,9 +73,7 @@ export default function Home() {
           </div>
         
           <div className="fakultas-short-desc">
-          STEI ITB is at the forefront of technological education in Indonesia. Our programs in electrical engineering and informatics blend cutting-edge theory with practical applications. 
-          We prepare students to become innovators and leaders in the rapidly evolving fields of technology and computer science. 
-          With world-class faculty and state-of-the-art facilities, STEI ITB offers an unparalleled educational experience for aspiring engineers and technologists. 
+          Fakultas Ilmu dan Teknologi Kebumian (FITB) ITB lahir dari pemekaran Fakultas Ilmu Kebumian dan Teknologi Mineral (FIKTM). Ilmu-ilmu kebumian di FITB fokus pada pemahaman fenomena alam yang berkaitan dengan bumi, yang bermanfaat bagi kehidupan manusia serta eksplorasi sumber daya alam. FITB mengintegrasikan sains dasar dengan penerapannya.  Program Studi Sarjana di FITB adalah Teknik Geologi (GL), Teknik Geodesi dan Geomatika (GD), Meteorologi (ME), dan Oseanografi (OS).
           </div>
 
           <div className="fakultas-get-to-know">
@@ -87,7 +85,8 @@ export default function Home() {
                 <Image src="/FITB_Gedung.png" alt="Labtek" width={600} height={400}></Image>
               </div>
               <div className="fakultas-long-desc">
-                At STEI ITB, we offer a comprehensive learning environment that goes beyond traditional classroom education. Our students engage in hands-on projects, collaborative research, and industry partnerships that provide real-world experience. We emphasize innovation, critical thinking, and problem-solving skills to prepare our graduates for the challenges of the digital age. With a strong focus on both theoretical knowledge and practical skills, STEI ITB graduates are well-equipped to drive technological advancements and shape the future of Indonesia&apos;s tech industry. Join us to be part of a community dedicated to excellence in electrical engineering and informatics.
+              Mahasiswa perlu menguasai mata pelajaran dasar seperti Fisika, Kimia, Matematika, dan Geografi. Mata kuliah yang akan dipelajari mencakup Geologi Dasar, Hidrologi, Geodesi, Penginderaan Jauh, Meteorologi, Oseanografi Fisis, serta eksplorasi sumber daya alam.
+              Keterampilan yang dibutuhkan untuk berhasil di FITB meliputi kemampuan analisis data spasial dan geospasial, pemetaan, penggunaan perangkat lunak khusus seperti GIS (Geographic Information System), kemampuan observasi lapangan, serta keterampilan dalam penelitian ilmiah. Selain itu, kemampuan komunikasi yang baik juga sangat penting. Program studi ini tidak hanya melibatkan teori di kelas tetapi juga praktik lapangan dan penelitian untuk memberikan pengalaman langsung dalam memecahkan masalah terkait kebumian.
               </div>
           </div> 
 

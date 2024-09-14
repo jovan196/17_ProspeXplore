@@ -73,9 +73,7 @@ export default function Home() {
           </div>
         
           <div className="fakultas-short-desc">
-          STEI ITB is at the forefront of technological education in Indonesia. Our programs in electrical engineering and informatics blend cutting-edge theory with practical applications. 
-          We prepare students to become innovators and leaders in the rapidly evolving fields of technology and computer science. 
-          With world-class faculty and state-of-the-art facilities, STEI ITB offers an unparalleled educational experience for aspiring engineers and technologists. 
+          Fakultas Matematika dan Ilmu Pengetahuan Alam (FMIPA) merupakan fakultas tertua dan terdepan di Indonesia dalam bidang matematika dan ilmu pengetahuan alam. Dibentuk pada tanggal 6 Oktober 1947 dengan sebutan Faculteit van Exacte Wetenschap, pada tanggal 22 September 1948 nama fakultas ini berubah menjadi Faculteit van Wiskunde en Natuur Wetenschap. Kemudian, pada tahun 1950 berubah nama lagi menjadi Fakultas Ilmu Pengetahuan dan Ilmu Alam (FIPIA), dan pada tahun 1972 hingga sekarang berubah menjadi Fakultas Matematika dan Ilmu Pengetahuan Alam (FMIPA). FMIPA terdiri dari 5 program studi yaitu Kimia (KI), Astronomi (AS), Fisika (FI), Matematika (MA), dan Aktuaria (AK).
           </div>
 
           <div className="fakultas-get-to-know">
@@ -87,7 +85,7 @@ export default function Home() {
                 <Image src="/FMIPA_Gedung.png" alt="Labtek" width={600} height={400}></Image>
               </div>
               <div className="fakultas-long-desc">
-                At STEI ITB, we offer a comprehensive learning environment that goes beyond traditional classroom education. Our students engage in hands-on projects, collaborative research, and industry partnerships that provide real-world experience. We emphasize innovation, critical thinking, and problem-solving skills to prepare our graduates for the challenges of the digital age. With a strong focus on both theoretical knowledge and practical skills, STEI ITB graduates are well-equipped to drive technological advancements and shape the future of Indonesia&apos;s tech industry. Join us to be part of a community dedicated to excellence in electrical engineering and informatics.
+              Mahasiswa yang ingin bersaing di FMIPA harus memiliki pemahaman yang kuat dalam mata pelajaran dasar seperti Matematika, Fisika, dan Kimia, karena ini adalah fondasi utama untuk mempelajari lebih lanjut ilmu-ilmu yang lebih spesifik. Setiap program studi memiliki fokus yang berbeda: Kimia berfokus pada studi zat dan reaksi kimia; Astronomi pada studi benda-benda langit dan fenomena alam semesta; Fisika pada hukum-hukum alam dan interaksi materi serta energi; Matematika pada teori, analisis, dan aplikasi matematika; sedangkan Aktuaria menggabungkan matematika, statistika, dan teori risiko untuk analisis keuangan dan asuransi.
               </div>
           </div> 
 

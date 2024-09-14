@@ -218,15 +218,18 @@ p{
 }
 
 .fakultas-nama {
-  width: 100%;
+  width: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   font-size: 45px;
   font-weight: 700;
-  padding-top: 100px;
+  padding-top: 50px;
   font-family: 'Poppins', sans-serif;
   color: white;
+  text-wrap: balance;
+  margin: 0 auto;
 }
 
 .fakultas-short-desc {
@@ -237,6 +240,7 @@ p{
   justify-content: center; /* Center text horizontally */
   align-items: center; 
   align-content: center;
+  text-align: center;
   color: white;
   font-family: 'Poppins', sans-serif;
 }
