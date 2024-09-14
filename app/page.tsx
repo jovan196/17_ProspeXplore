@@ -13,18 +13,18 @@ import { useSession } from "next-auth/react";
 import { signOut } from "next-auth/react";
 
 const slideData = [
-  { title: "Sekolah Teknik Elektro Informatika (STEI)", description: "As a leader in the field of electrical and informatics engineering, STEI prepares students to innovate in cutting-edge technologies, ensuring a strong foundation for careers in the rapidly evolving tech industry." },
-  { title: "Fakultas Teknik Industri (FTI)", description: "With a focus on optimizing complex systems and processes, FTI equips graduates with the skills to lead in industries such as manufacturing, logistics, and operations, driving efficiency and innovation." },
-  { title: "Fakultas Teknik Mesin dan Dirgantara (FTMD)", description: "FTMD combines rigorous mechanical and aerospace engineering training, producing graduates capable of advancing technologies in sectors like automotive, aviation, and energy." },
-  { title: "Sekolah Ilmu Teknologi Hayati (SITH)", description: "SITH offers a comprehensive education in life sciences and biotechnology, positioning its graduates to contribute to advancements in healthcare, agriculture, and environmental management." },
-  { title: "Fakultas Ilmu dan Teknologi Kebumian (FITB)", description: "FITB specializes in earth sciences and technology, preparing students for impactful careers in geology, meteorology, and environmental conservation, crucial for sustainable development." },
-  { title: "Fakultas Matematika dan Ilmu Pengetahuan Alam (FMIPA)", description: "FMIPA provides a solid foundation in mathematics and natural sciences, fostering analytical and problem-solving skills that are essential in research, education, and industry." },
-  { title: "Fakultas Seni Rupa dan Desain (FSRD)", description: "FSRD nurtures creativity and innovation in visual arts and design, preparing students for dynamic careers in the creative industries, from digital media to product design." },
-  { title: "Fakultas Teknik Pertambangan dan Perminyakan (FTTM)", description: "FTTM is at the forefront of mining and petroleum engineering education, equipping students with the expertise to tackle challenges in energy production and resource management." },
-  { title: "Fakultas Teknik Sipil dan Lingkungan (FTSL)", description: "FTSL trains engineers in civil and environmental engineering, focusing on sustainable infrastructure development and environmental protection, crucial for urban planning and construction." },
-  { title: "Sekolah Arsitektur, Perencanaan dan Pengembangan Kebijakan (SAPPK)", description: "SAPPK offers an interdisciplinary approach to architecture, planning, and policy development, preparing students to create sustainable and innovative built environments." },
-  { title: "Sekolah Bisnis dan Manajemen (SBM)", description: "SBM provides a world-class business education, focusing on leadership, entrepreneurship, and innovation, essential for success in the global business landscape." },
-  { title: "Sekolah Farmasi (SF)", description: "SF offers a rigorous curriculum in pharmaceutical sciences, preparing graduates for careers in healthcare, research, and the pharmaceutical industry, contributing to public health and well-being." },  
+  { title: "Sekolah Teknik Elektro Informatika (STEI)", description: "Sebagai pemimpin di bidang teknik elektro dan informatika, STEI menyiapkan mahasiswa untuk berinovasi dalam teknologi dan memastikan landasan yang kuat untuk karier di industri yang semakin berkembang pesat." },
+  { title: "Fakultas Teknik Industri (FTI)", description: "Dengan fokus pada pengoptimalan sistem dan proses kompleks, FTI membekali lulusannya dengan keterampilan untuk memimpin di industri seperti manufaktur, logistik, dan operasional." },
+  { title: "Fakultas Teknik Mesin dan Dirgantara (FTMD)", description: "FTMD menggabungkan pelatihan teknik mesin dan dirgantara yang ketat untuk menghasilkan lulusan yang mampu mengembangkan teknologi di sektor-sektor seperti otomotif, penerbangan, dan energi." },
+  { title: "Sekolah Ilmu Teknologi Hayati (SITH)", description: "SITH menawarkan pendidikan komprehensif di bidang ilmu hayati dan bioteknologi untuk mempersiapkan lulusannya untuk berkontribusi dalam kemajuan di bidang kesehatan, pertanian, dan pengelolaan lingkungan." },
+  { title: "Fakultas Ilmu dan Teknologi Kebumian (FITB)", description: "FITB mengkhususkan diri dalam ilmu dan teknologi kebumian untuk mempersiapkan mahasiswa berkarier di bidang geologi, meteorologi, dan konservasi lingkungan yang esensial bagi pembangunan berkelanjutan." },
+  { title: "Fakultas Matematika dan Ilmu Pengetahuan Alam (FMIPA)", description: "FMIPA memberikan landasan kuat pada bidang matematika dan ilmu pengetahuan alam serta mengembangkan keterampilan analitis dan pemecahan masalah yang penting dalam penelitian, pendidikan, dan industri." },
+  { title: "Fakultas Seni Rupa dan Desain (FSRD)", description: "FSRD mengembangkan kreativitas dan inovasi mahasiswa dalam seni rupa dan desain untuk mempersiapkannya ke dunia kerja yang dinamis di industri kreatif, mulai dari media digital hingga desain produk." },
+  { title: "Fakultas Teknik Pertambangan dan Perminyakan (FTTM)", description: "FTTM yang berada di garis depan pendidikan teknik pertambangan dan perminyakan membekali mahasiswa dengan ilmu untuk menghadapi tantangan dalam produksi energi dan pengelolaan sumber daya." },
+  { title: "Fakultas Teknik Sipil dan Lingkungan (FTSL)", description: "FTSL melatih mahasiswa di bidang teknik sipil dan lingkungan dengan fokus pada pengembangan infrastruktur berkelanjutan dan perlindungan lingkungan yang penting untuk pembangunan." },
+  { title: "Sekolah Arsitektur, Perencanaan dan Pengembangan Kebijakan (SAPPK)", description: "SAPPK menawarkan pendekatan interdisipliner dalam arsitektur, perencanaan, dan pengembangan kebijakan dalam menciptakan lingkungan yang berkelanjutan dan inovatif." },
+  { title: "Sekolah Bisnis dan Manajemen (SBM)", description: "SBM menyediakan pendidikan bisnis kelas dunia dengan fokus pada kepemimpinan, kewirausahaan, dan inovasi yang penting untuk sukses dalam lanskap bisnis global." },
+  { title: "Sekolah Farmasi (SF)", description: "SF menawarkan kurikulum dalam ilmu farmasi untuk mempersiapkan lulusan dalam berkarier di bidang kesehatan, penelitian, dan industri farmasi, serta berkontribusi pada kesehatan dan kesejahteraan masyarakat." },  
 ];
 
 export default function Home() {
@@ -59,6 +59,21 @@ export default function Home() {
       }
       else if (title === "Fakultas Seni Rupa dan Desain (FSRD)"){
         router.push("/fakultas/fsrd");
+      }
+      else if (title === "Fakultas Teknik Industri (FTI)"){
+        router.push("/fakultas/fti");
+      }
+      else if (title === "Fakultas Teknik Sipil dan Lingkungan (FTSL)"){
+        router.push("/fakultas/ftsl");
+      }
+      else if (title === "Sekolah Arsitektur, Perencanaan dan Pengembangan Kebijakan (SAPPK)"){
+        router.push("/fakultas/sappk");
+      }
+      else if (title === "Sekolah Bisnis dan Manajemen (SBM)"){
+        router.push("/fakultas/sbm");
+      }
+      else if (title === "Sekolah Farmasi (SF)"){
+        router.push("/fakultas/sf");
       }
     };
 

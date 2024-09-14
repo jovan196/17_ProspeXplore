@@ -68,24 +68,24 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="fakultas-nama">
-            Fakultas Teknik Mesin dan Dirgantara (FTMD)
+          <div className="fakultas-nama">  
+            Fakultas Teknik Sipil dan Lingkungan (FTSL)
           </div>
         
           <div className="fakultas-short-desc">
-            Fakultas Teknik Mesin dan Dirgantara (FTMD) ITB didirikan pada 10 September 2007 sebagai hasil pemekaran dari Fakultas Teknologi Industri (FTI). Program studi di FTMD memiliki sejarah panjang sejak pembentukan Program Studi Teknik Mesin (MS) pada 1 Agustus 1941 di Technische Hoogeschool (TH) Bandoeng. Seiring waktu, program ini berkembang dan mencakup Teknik Penerbangan / Dirgantara (AE) yang akhirnya menjadi program studi secara terpisah pada tahun 1991, serta Teknik Material (MT) yang mulai diperkenalkan pada tahun 1994. 
+            Fakultas Teknik Sipil dan Lingkungan (FTSL) dahulunya adalah Fakultas Teknik Sipil dan Perencanaan (FTSP), merupakan suatu fakultas yang terbentuk dari jurusan-jurusan pendidikan yang berada di lingkungan FTSP. Jurusan Teknik Sipil ini merupakan jurusan pendidikan sebagai cikal bakal lembaga pendidikan tinggi teknik di Indonesia - Technische Hoogesschool (THS) Bandoeng yang didirikan pada tanggal 3 Juli 1920. FTSL menaungi 5 jurusan, yaitu Rekayasa Infrastruktur Lingkungan (RIL), Teknik dan Pengelolaan Sumber Daya Air (TSA), Teknik Kelautan (KL), Teknik Lingkungan (TL), dan Teknik Sipil (SI).         
           </div>
 
           <div className="fakultas-get-to-know">
-          Get to know about FTMD!
+          Get to know about FTSL!
           </div>
 
           <div className="fakultas-article">
               <div className="fakultas-foto">
-                <Image src="/FTMD_Gedung.png" alt="Labtek" width={600} height={400}></Image>
+                <Image src="/FTSL_Gedung.jpg" alt="Labtek" width={600} height={400} className='rounded-2xl '></Image>
               </div>
               <div className="fakultas-long-desc">
-                FTMD saat ini menawarkan program pendidikan sarjana, magister, dan doktor dalam bidang Teknik Mesin, Teknik Dirgantara, dan Teknik Material. Mahasiswa di FTMD perlu memiliki dasar yang kuat dalam Matematika, Fisika, dan Kimia. Mata kuliah yang akan dipelajari seperti Mekanika Teknik, Termodinamika, Dinamika Penerbangan, dan Material Komposit. Keterampilan yang diperlukan meliputi kemampuan analisis dan pemecahan masalah teknis, keterampilan praktis dalam penggunaan perangkat dan teknologi terkini, serta kemampuan dalam desain dan simulasi dengan menggunakan perangkat lunak CAD (Computer-Aided Design) dan CAE (Computer-Aided Engineering). Mahasiswa juga perlu mengembangkan keterampilan komunikasi yang baik.
+              Mahasiswa yang ingin bersaing di FTSL perlu memiliki dasar yang kuat, terutama pada Matematika dan Fisika. Pada bidang ini berfokus pada analisis dan desain infrastruktur serta pengelolaan lingkungan. Mata kuliah yang dipelajari mencakupi Mekanika Tanah dan Struktur yang penting dalam Teknik Sipil untuk memahami perilaku tanah dan desain bangunan. Mata kuliah Hidrologi dan Teknik Sumber Daya Air memberikan pemahaman tentang pengelolaan air dan siklus hidrologi. Di Teknik Lingkungan, mahasiswa akan mempelajari mata kuliah seperti Pengolahan Air Limbah, Manajemen Limbah Padat. Dalam Teknik Kelautan, mata kuliah seperti Oseanografi Teknik dan Rekayasa Pantai dipelajari untuk memahami dinamika laut dan desain struktur pantai. Selain itu, program studi Rekayasa Infrastruktur Lingkungan (RIL) fokus pada pengembangan infrastruktur yang berkelanjutan dengan mata kuliah seperti Teknologi Lingkungan dan Perencanaan Infrastruktur. Teknik dan Pengelolaan Sumber Daya Air (TSA) membekali mahasiswa dengan pengetahuan tentang manajemen sumber daya air melalui mata kuliah seperti Pengelolaan DAS dan Hidroinformatika.              
               </div>
           </div> 
 
