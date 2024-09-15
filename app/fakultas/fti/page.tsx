@@ -69,7 +69,7 @@ export default function Home() {
             </div>
           </div>
           <div className="fakultas-nama">
-            Fakultas Teknik Mesin dan Dirgantara (FTMD)
+            Fakultas Teknologi Industri (FTI)
           </div>
         
           <div className="fakultas-short-desc">
