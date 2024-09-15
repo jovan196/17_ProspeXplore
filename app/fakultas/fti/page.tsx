@@ -73,37 +73,35 @@ export default function Home() {
           </div>
         
           <div className="fakultas-short-desc">
-            Fakultas Teknik Mesin dan Dirgantara (FTMD) ITB didirikan pada 10 September 2007 sebagai hasil pemekaran dari Fakultas Teknologi Industri (FTI). Program studi di FTMD memiliki sejarah panjang sejak pembentukan Program Studi Teknik Mesin (MS) pada 1 Agustus 1941 di Technische Hoogeschool (TH) Bandoeng. Seiring waktu, program ini berkembang dan mencakup Teknik Penerbangan / Dirgantara (AE) yang akhirnya menjadi program studi secara terpisah pada tahun 1991, serta Teknik Material (MT) yang mulai diperkenalkan pada tahun 1994. 
-          </div>
+          Fakultas Teknologi Industri (FTI) ITB diresmikan pada tahun 1973. Hingga Desember 2005, FTI menaungi berbagai prodi-prodi teknik seperti Teknik Elektro, Teknik Mesin, Teknik Penerbangan, dan Teknik Industri sebelum dipecah dan dibentuk fakultas-fakultas baru. Saat ini, terdapat 6 program studi Sarjana yang berada di bawah FTI, yakni Teknik Kimia (TK), Teknik Fisika (TF), Teknik Industri (TI), Manajemen Rekayasa (MR), Teknik Bioenergi dan Kemurgi (TB), dan Teknik Pangan (TP).          </div>
 
           <div className="fakultas-get-to-know">
-          Get to know about FTMD!
+          Get to know about FTI!
           </div>
 
           <div className="fakultas-article">
               <div className="fakultas-foto">
-                <Image src="/FTMD_Gedung.png" alt="Labtek" width={600} height={400}></Image>
+                <Image src="/FTI_Gedung.png" alt="Labtek" width={600} height={400}></Image>
               </div>
               <div className="fakultas-long-desc">
-                FTMD saat ini menawarkan program pendidikan sarjana, magister, dan doktor dalam bidang Teknik Mesin, Teknik Dirgantara, dan Teknik Material. Mahasiswa di FTMD perlu memiliki dasar yang kuat dalam Matematika, Fisika, dan Kimia. Mata kuliah yang akan dipelajari seperti Mekanika Teknik, Termodinamika, Dinamika Penerbangan, dan Material Komposit. Keterampilan yang diperlukan meliputi kemampuan analisis dan pemecahan masalah teknis, keterampilan praktis dalam penggunaan perangkat dan teknologi terkini, serta kemampuan dalam desain dan simulasi dengan menggunakan perangkat lunak CAD (Computer-Aided Design) dan CAE (Computer-Aided Engineering). Mahasiswa juga perlu mengembangkan keterampilan komunikasi yang baik.
-              </div>
+              Mahasiswa yang ingin bersaing di FTI harus memiliki dasar yang kuat dalam ilmu seperti Matematika, Fisika, dan Kimia. Memiliki keterampilan analisis dan pemecahan masalah. Setiap program studi memiliki fokus yang berbeda. Teknik Kimia berfokus pada proses produksi dan pengolahan bahan kimia. Teknik Fisika pada penerapan prinsip fisika dalam teknologi. Teknik Industri pada optimalisasi sistem produksi dan manajemen. Manajemen Rekayasa pada integrasi antara manajemen dan teknik. Teknik Bioenergi dan Kemurgi pada pemanfaatan sumber daya hayati untuk energi dan bahan. Teknik Pangan pada teknologi pengolahan dan keamanan pangan. Mata kuliah yang dipelajari mencakup Termodinamika, Rekayasa Proses, Sistem Kendali, Riset Operasi, hingga Teknologi Pangan dan Energi Terbarukan. Mahasiswa FTI juga dilatih untuk menguasai teknologi terkini dan bekerja dalam tim multidisiplin untuk memecahkan masalah kompleks dalam industri.              </div>
           </div> 
 
           <div className="fakultas-graph"> 
-            <Image src="/FTMD_GajiLamaKerja.png" alt="Grafik gaji berdasarkan lama kerja" width={1000} height={1000} />
+            <Image src="/FTI_GajiLamaKerja.png" alt="Grafik gaji berdasarkan lama kerja" width={1000} height={1000} />
           </div>
 
 
           <div className="fakultas-graph"> 
-            <Image src="/FTMD_GajiTepatSetelahLulus.png" alt="Gaji tepat setelah lulus" width={1000} height={1000} />
+            <Image src="/FTI_GajiTepatSetelahLulus.png" alt="Gaji tepat setelah lulus" width={1000} height={1000} />
           </div>
 
           <div className="fakultas-graph"> 
-            <Image src="/FTMD_JenisKerja.png" alt="Labtek" width={1000} height={1000}/>
+            <Image src="/FTI_JenisKerja.png" alt="Labtek" width={1000} height={1000}/>
           </div>
 
           <div className="fakultas-graph"> 
-            <Image src="/FTMD_GajiTahun.png" alt="Labtek" width={1000} height={1000}/>
+            <Image src="/FTI_GajiTahun.png" alt="Labtek" width={1000} height={1000}/>
           </div>
 
           <div className="footer">

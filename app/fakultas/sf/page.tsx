@@ -69,41 +69,39 @@ export default function Home() {
             </div>
           </div>
           <div className="fakultas-nama">
-            Fakultas Teknik Mesin dan Dirgantara (FTMD)
+            Sekolah Farmasi (SF)
           </div>
         
           <div className="fakultas-short-desc">
-            Fakultas Teknik Mesin dan Dirgantara (FTMD) ITB didirikan pada 10 September 2007 sebagai hasil pemekaran dari Fakultas Teknologi Industri (FTI). Program studi di FTMD memiliki sejarah panjang sejak pembentukan Program Studi Teknik Mesin (MS) pada 1 Agustus 1941 di Technische Hoogeschool (TH) Bandoeng. Seiring waktu, program ini berkembang dan mencakup Teknik Penerbangan / Dirgantara (AE) yang akhirnya menjadi program studi secara terpisah pada tahun 1991, serta Teknik Material (MT) yang mulai diperkenalkan pada tahun 1994. 
-          </div>
+          Sekolah Farmasi (SF) ITB didirikan sebagai Departemen Farmasi pada 6 Oktober 1947 di bawah Faculteit voor Wiskunde en Natuurwetenschapen, bagian dari Universitas Indonesia. Pada 1 Februari 1949, fakultas tersebut berganti nama menjadi Fakultas Ilmu Pengetahuan dan Ilmu Alam (FIPIA). Pada tahun 1959, fakultas ini menjadi bagian dari ITB, dan Departemen Farmasi bergabung dengan Departemen Kimia dan Biologi hingga tahun 1961. Pada tahun 1973, Departemen Farmasi bergabung dengan Fakultas Matematika dan Ilmu Pengetahuan Alam (FMIPA). Seiring berjalannya waktu, kurikulum dan struktur organisasi terus berkembang. Pada tahun 2005, Departemen Farmasi resmi berubah status menjadi Sekolah Farmasi (SF) yang menyediakan program Sains dan Teknologi Farmasi (FA) serta Farmasi Klinik dan Komunitas (FKK).           </div>
 
           <div className="fakultas-get-to-know">
-          Get to know about FTMD!
+          Get to know about SF!
           </div>
 
           <div className="fakultas-article">
               <div className="fakultas-foto">
-                <Image src="/FTMD_Gedung.png" alt="Labtek" width={600} height={400}></Image>
+                <Image src="/SF_Gedung.png" alt="Labtek" width={600} height={400}></Image>
               </div>
               <div className="fakultas-long-desc">
-                FTMD saat ini menawarkan program pendidikan sarjana, magister, dan doktor dalam bidang Teknik Mesin, Teknik Dirgantara, dan Teknik Material. Mahasiswa di FTMD perlu memiliki dasar yang kuat dalam Matematika, Fisika, dan Kimia. Mata kuliah yang akan dipelajari seperti Mekanika Teknik, Termodinamika, Dinamika Penerbangan, dan Material Komposit. Keterampilan yang diperlukan meliputi kemampuan analisis dan pemecahan masalah teknis, keterampilan praktis dalam penggunaan perangkat dan teknologi terkini, serta kemampuan dalam desain dan simulasi dengan menggunakan perangkat lunak CAD (Computer-Aided Design) dan CAE (Computer-Aided Engineering). Mahasiswa juga perlu mengembangkan keterampilan komunikasi yang baik.
-              </div>
+                Mahasiswa SF harus memiliki dasar yang kuat dalam Kimia, Biologi, dan Matematika, karena ketiga bidang ini merupakan fondasi dalam memahami ilmu farmasi. Mata kuliah yang diajarkan mencakup Farmakologi, Kimia Farmasi, Formulasi, Farmasi Klinik, dan Biologi Farmasi, dengan kombinasi teori, praktik laboratorium, dan penelitian. Keterampilan yang harus dikuasai meliputi analisis laboratorium, penguasaan teknologi farmasi modern, pemahaman regulasi obat dan keamanan pangan, serta kemampuan komunikasi yang baik.              </div>
           </div> 
 
           <div className="fakultas-graph"> 
-            <Image src="/FTMD_GajiLamaKerja.png" alt="Grafik gaji berdasarkan lama kerja" width={1000} height={1000} />
+            <Image src="/SF_GajiLamaKerja.png" alt="Grafik gaji berdasarkan lama kerja" width={1000} height={1000} />
           </div>
 
 
           <div className="fakultas-graph"> 
-            <Image src="/FTMD_GajiTepatSetelahLulus.png" alt="Gaji tepat setelah lulus" width={1000} height={1000} />
+            <Image src="/SF_GajiTepatSetelahLulus.png" alt="Gaji tepat setelah lulus" width={1000} height={1000} />
           </div>
 
           <div className="fakultas-graph"> 
-            <Image src="/FTMD_JenisKerja.png" alt="Labtek" width={1000} height={1000}/>
+            <Image src="/SF_JenisKerja.png" alt="Labtek" width={1000} height={1000}/>
           </div>
 
           <div className="fakultas-graph"> 
-            <Image src="/FTMD_GajiTahun.png" alt="Labtek" width={1000} height={1000}/>
+            <Image src="/SF_GajiTahun.png" alt="Labtek" width={1000} height={1000}/>
           </div>
 
           <div className="footer">

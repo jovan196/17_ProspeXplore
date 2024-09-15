@@ -69,26 +69,23 @@ export default function Home() {
             </div>
           </div>
           <div className="fakultas-nama">
-            Sekolah Teknik Elektro dan Informatika (STEI)
+            Sekolah Ilmu dan Teknologi Hayati (SITH)
           </div>
         
           <div className="fakultas-short-desc">
-          STEI ITB is at the forefront of technological education in Indonesia. Our programs in electrical engineering and informatics blend cutting-edge theory with practical applications. 
-          We prepare students to become innovators and leaders in the rapidly evolving fields of technology and computer science. 
-          With world-class faculty and state-of-the-art facilities, STEI ITB offers an unparalleled educational experience for aspiring engineers and technologists. 
+          Pada abad ke-21 ini, keahlian dalam bidang ilmu-ilmu hayati (life sciences) akan memegang peranan penting dalam pengembangan ilmu pengetahuan kehayatan (biosains), bioteknologi, dan pengelolaan sumber daya alam. Bahkan bioteknologi diperkirakan akan menjadi salah satu ilmu terapan (applied sciences) yang terpenting. Maka, Sekolah Ilmu dan Teknologi Hayati didirikan untuk menjawab tantangan tersebut. SITH dibagi menjadi dua rumpun studi untuk Sarjana, yakni program Sains yang membawahi dua prodi, Biologi (BI) dan Mikrobiologi (BM), dan program Rekayasa yang membawahi 4 prodi, yakni Rekayasa Hayati (BE), Rekayasa Pertanian (BA), Rekayasa Kehutanan (BW), dan Teknologi Pasca Panen (BP).
           </div>
 
           <div className="fakultas-get-to-know">
-          Get to know about STEI!
+          Get to know about SITH!
           </div>
 
           <div className="fakultas-article">
               <div className="fakultas-foto">
-                <Image src="/Labtek.png" alt="Labtek" width={600} height={400}></Image>
+                <Image src="/SITH_Gedung.png" alt="Labtek" width={600} height={400}></Image>
               </div>
               <div className="fakultas-long-desc">
-                At STEI ITB, we offer a comprehensive learning environment that goes beyond traditional classroom education. Our students engage in hands-on projects, collaborative research, and industry partnerships that provide real-world experience. We emphasize innovation, critical thinking, and problem-solving skills to prepare our graduates for the challenges of the digital age. With a strong focus on both theoretical knowledge and practical skills, STEI ITB graduates are well-equipped to drive technological advancements and shape the future of Indonesia&apos;s tech industry. Join us to be part of a community dedicated to excellence in electrical engineering and informatics.
-              </div>
+              Mahasiswa SITH perlu keterampilan seperti penelitian laboratorium, analisis data, dan pemecahan masalah kompleks. Pemahaman yang kuat dalam mata pelajaran Biologi, Kimia, dan Matematika sangat penting sebagai dasar untuk studi lanjut. Di SITH, mahasiswa akan mempelajari mata kuliah seperti Biologi Molekuler, Genetika, Bioteknologi, Mikrobiologi, Ekologi, dan Pengelolaan Sumber Daya Hayati. Mata kuliah ini dirancang untuk memberikan pemahaman mendalam tentang proses biologis, teknologi terbaru dalam bioteknologi, serta metode pengelolaan sumber daya alam yang berkelanjutan. Keterampilan tambahan seperti kemampuan berpikir kritis, inovasi, dan kolaborasi multidisiplin juga ditekankan untuk memastikan lulusan siap bersaing di berbagai sektor, termasuk industri, pemerintahan, dan kewirausahaan.              </div>
           </div> 
 
           <div className="fakultas-graph"> 

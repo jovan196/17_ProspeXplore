@@ -69,41 +69,41 @@ export default function Home() {
             </div>
           </div>
           <div className="fakultas-nama">
-            Fakultas Teknik Mesin dan Dirgantara (FTMD)
+            Sekolah Arsitektur, Perencanaan dan Pengembangan Kebijakan (SAPPK)          
           </div>
         
           <div className="fakultas-short-desc">
-            Fakultas Teknik Mesin dan Dirgantara (FTMD) ITB didirikan pada 10 September 2007 sebagai hasil pemekaran dari Fakultas Teknologi Industri (FTI). Program studi di FTMD memiliki sejarah panjang sejak pembentukan Program Studi Teknik Mesin (MS) pada 1 Agustus 1941 di Technische Hoogeschool (TH) Bandoeng. Seiring waktu, program ini berkembang dan mencakup Teknik Penerbangan / Dirgantara (AE) yang akhirnya menjadi program studi secara terpisah pada tahun 1991, serta Teknik Material (MT) yang mulai diperkenalkan pada tahun 1994. 
+          Sekolah Arsitektur, Perencanaan, dan Pengembangan Kebijakan (SAPPK) ITB didirikan pada 29 Agustus 2005 berdasarkan SK Rektor ITB No. 222/2005 sebagai bagian dari reorganisasi unit akademik di ITB yang meningkatkan jumlah Fakultas/Sekolah dari 7 menjadi 11. Meskipun merupakan fakultas baru, SAPPK dibentuk dari penggabungan program akademik dan sumber daya yang sebelumnya berada di bawah Fakultas Teknik Sipil dan Perencanaan, yaitu Departemen Arsitektur dan Perencanaan Wilayah dan Kota, serta dua program studi dari Fakultas Teknik Industri, yaitu Studi Pembangunan dan Transportasi. Kini, SAPPK menaungi dua program studi untuk Sarjana, yakni Arsitektur (AR) dan Perencanaan Wilayah dan Kota (PWK).
           </div>
 
           <div className="fakultas-get-to-know">
-          Get to know about FTMD!
+          Get to know about SAPPK!
           </div>
 
           <div className="fakultas-article">
               <div className="fakultas-foto">
-                <Image src="/FTMD_Gedung.png" alt="Labtek" width={600} height={400}></Image>
+                <Image src="/SAPPK_Gedung.png" alt="Labtek" width={600} height={400}></Image>
               </div>
               <div className="fakultas-long-desc">
-                FTMD saat ini menawarkan program pendidikan sarjana, magister, dan doktor dalam bidang Teknik Mesin, Teknik Dirgantara, dan Teknik Material. Mahasiswa di FTMD perlu memiliki dasar yang kuat dalam Matematika, Fisika, dan Kimia. Mata kuliah yang akan dipelajari seperti Mekanika Teknik, Termodinamika, Dinamika Penerbangan, dan Material Komposit. Keterampilan yang diperlukan meliputi kemampuan analisis dan pemecahan masalah teknis, keterampilan praktis dalam penggunaan perangkat dan teknologi terkini, serta kemampuan dalam desain dan simulasi dengan menggunakan perangkat lunak CAD (Computer-Aided Design) dan CAE (Computer-Aided Engineering). Mahasiswa juga perlu mengembangkan keterampilan komunikasi yang baik.
+              SAPPK memiliki program studi yang fokus pada pengembangan pengetahuan dan keterampilan dalam bidang perencanaan, desain, dan kebijakan yang terkait dengan lingkungan binaan. Mahasiswa di SAPPK mempelajari mata kuliah seperti Desain Arsitektur, Perencanaan Tata Ruang, Pengembangan Wilayah, dan Kebijakan Transportasi. Keterampilan yang ditekankan meliputi kemampuan analisis spasial, desain dan visualisasi, perencanaan strategis, serta pemahaman regulasi dan kebijakan publik. Selain itu, mahasiswa juga dilatih untuk berpikir kritis dan kreatif dalam menghadapi tantangan urbanisasi, pembangunan berkelanjutan, dan transportasi. Kemampuan komunikasi dan kolaborasi multidisiplin juga menjadi bagian penting dari kurikulum untuk memastikan lulusan SAPPK siap berkontribusi dalam menciptakan lingkungan yang lebih baik.
               </div>
           </div> 
 
           <div className="fakultas-graph"> 
-            <Image src="/FTMD_GajiLamaKerja.png" alt="Grafik gaji berdasarkan lama kerja" width={1000} height={1000} />
+            <Image src="/SAPPK_GajiLamaKerja.png" alt="Grafik gaji berdasarkan lama kerja" width={1000} height={1000} />
           </div>
 
 
           <div className="fakultas-graph"> 
-            <Image src="/FTMD_GajiTepatSetelahLulus.png" alt="Gaji tepat setelah lulus" width={1000} height={1000} />
+            <Image src="/SAPPK_GajiTepatSetelahLulus.png" alt="Gaji tepat setelah lulus" width={1000} height={1000} />
           </div>
 
           <div className="fakultas-graph"> 
-            <Image src="/FTMD_JenisKerja.png" alt="Labtek" width={1000} height={1000}/>
+            <Image src="/SAPPK_JenisKerja.png" alt="Labtek" width={1000} height={1000}/>
           </div>
 
           <div className="fakultas-graph"> 
-            <Image src="/FTMD_GajiTahun.png" alt="Labtek" width={1000} height={1000}/>
+            <Image src="/SAPPK_GajiTahun.png" alt="Labtek" width={1000} height={1000}/>
           </div>
 
           <div className="footer">

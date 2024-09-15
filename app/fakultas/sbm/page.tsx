@@ -69,41 +69,39 @@ export default function Home() {
             </div>
           </div>
           <div className="fakultas-nama">
-            Fakultas Teknik Mesin dan Dirgantara (FTMD)
+            Sekolah Bisnis dan Manajemen (SBM)
           </div>
         
           <div className="fakultas-short-desc">
-            Fakultas Teknik Mesin dan Dirgantara (FTMD) ITB didirikan pada 10 September 2007 sebagai hasil pemekaran dari Fakultas Teknologi Industri (FTI). Program studi di FTMD memiliki sejarah panjang sejak pembentukan Program Studi Teknik Mesin (MS) pada 1 Agustus 1941 di Technische Hoogeschool (TH) Bandoeng. Seiring waktu, program ini berkembang dan mencakup Teknik Penerbangan / Dirgantara (AE) yang akhirnya menjadi program studi secara terpisah pada tahun 1991, serta Teknik Material (MT) yang mulai diperkenalkan pada tahun 1994. 
-          </div>
+          Sekolah Bisnis dan Manajemen (SBM) Institut Teknologi Bandung didirikan pada tanggal 31 Desember 2003. SBM ITB terletak di Kampus Utama Institut Teknologi Bandung (ITB) yang merupakan salah satu perguruan tinggi terbaik di Indonesia.  SBM ITB berperan aktif sebagai pusat pengembangan teknopreneur di Indonesia. Pada tahun 2018 SBM ITB memperoleh akreditasi internasional ABEST, dan di tahun 2021 SBM ITB menjadi salah satu dari sedikit sekolah bisnis yang berhasil memperoleh akreditasi internasional dari AACSB. SBM ITB memiliki 2 Program Studi Sarjana yaitu Manajemen (MB) dan Kewirausahaan (MK).          </div>
 
           <div className="fakultas-get-to-know">
-          Get to know about FTMD!
+          Get to know about SBM!
           </div>
 
           <div className="fakultas-article">
               <div className="fakultas-foto">
-                <Image src="/FTMD_Gedung.png" alt="Labtek" width={600} height={400}></Image>
+                <Image src="/SBM_Gedung.png" alt="Labtek" width={600} height={400}></Image>
               </div>
               <div className="fakultas-long-desc">
-                FTMD saat ini menawarkan program pendidikan sarjana, magister, dan doktor dalam bidang Teknik Mesin, Teknik Dirgantara, dan Teknik Material. Mahasiswa di FTMD perlu memiliki dasar yang kuat dalam Matematika, Fisika, dan Kimia. Mata kuliah yang akan dipelajari seperti Mekanika Teknik, Termodinamika, Dinamika Penerbangan, dan Material Komposit. Keterampilan yang diperlukan meliputi kemampuan analisis dan pemecahan masalah teknis, keterampilan praktis dalam penggunaan perangkat dan teknologi terkini, serta kemampuan dalam desain dan simulasi dengan menggunakan perangkat lunak CAD (Computer-Aided Design) dan CAE (Computer-Aided Engineering). Mahasiswa juga perlu mengembangkan keterampilan komunikasi yang baik.
-              </div>
+              SBM ITB menawarkan dua program studi sarjana, yaitu Manajemen dan Kewirausahaan. Program Studi Manajemen berfokus pada pengembangan kemampuan analisis bisnis, manajemen strategi, keuangan, dan pemasaran. Sementara itu, Program Studi Kewirausahaan dirancang untuk membekali mahasiswa dengan keterampilan dalam menciptakan dan mengelola usaha, termasuk inovasi produk, pengelolaan sumber daya, dan pengembangan bisnis. Mahasiswa di SBM ITB juga didorong untuk mengembangkan keterampilan soft skill seperti kepemimpinan, komunikasi, dan kerjasama tim, yang penting dalam dunia bisnis yang dinamis dan kompetitif.              </div>
           </div> 
 
           <div className="fakultas-graph"> 
-            <Image src="/FTMD_GajiLamaKerja.png" alt="Grafik gaji berdasarkan lama kerja" width={1000} height={1000} />
+            <Image src="/SBM_GajiLamaKerja.png" alt="Grafik gaji berdasarkan lama kerja" width={1000} height={1000} />
           </div>
 
 
           <div className="fakultas-graph"> 
-            <Image src="/FTMD_GajiTepatSetelahLulus.png" alt="Gaji tepat setelah lulus" width={1000} height={1000} />
+            <Image src="/SBM_GajiTepatSetelahLulus.png" alt="Gaji tepat setelah lulus" width={1000} height={1000} />
           </div>
 
           <div className="fakultas-graph"> 
-            <Image src="/FTMD_JenisKerja.png" alt="Labtek" width={1000} height={1000}/>
+            <Image src="/SBM_JenisKerja.png" alt="Labtek" width={1000} height={1000}/>
           </div>
 
           <div className="fakultas-graph"> 
-            <Image src="/FTMD_GajiTahun.png" alt="Labtek" width={1000} height={1000}/>
+            <Image src="/SBM_GajiTahun.png" alt="Labtek" width={1000} height={1000}/>
           </div>
 
           <div className="footer">
